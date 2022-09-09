@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
@@ -17,19 +17,21 @@
         .container{
             max-width: 100%;
         }
-            align-items: flex-end;
-            width: 40%;
-            height: 20%;
+        #img1 {
+            width: 35%;
+            height: 25%;
             float: right;
-            border-radius: 50%;
+            border-radius: 10%;
+            padding: 2%;
         }
 
         #Texto1 {
-            width: 45%;
+            width: 90%;
             margin-top: 5%;
+            margin-left: 5%;
             float: left;
             font-family: Verdana;
-            font-size: 200%;
+            font-size: 100%;
             text-align: justify;
         }
 
@@ -42,12 +44,12 @@
         }
     </style>
 
-    <title>web personal</title>
+    <title>RETRO SHRINE</title>
 </head>
 
 <body>
     <header class="title">
-        <img id="img" src="ezgif.com-gif-maker.gif">
+        <a href="index.html"><img id="img" src="img/ezgif.com-gif-maker.gif"></a>
     </header>
     <nav class="navbar navbar-expand-lg bg-warning">
         <div class="container-fluid">
@@ -68,7 +70,7 @@
                         <a class="nav-link" href="#">links</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">about me</a>
+                        <a class="nav-link" href="about.html">about me</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -81,25 +83,30 @@
 
    
         <div class="container">
-            <div id="Texto1">
-                <p id="p_texto1">- DEMON SLAYER -<br>
+            <div id="Texto1"><figure id="">
+                <img class="imagenes" id="img1" src="doomguy.jpg" alt=“YO"></figure>
+                <h1 id="p_texto1">- DEMON SLAYER -<br>
                     A.K.A: DOOMGUY
-                </p>
+                </h1>                <p> <!--<figure id="">
+                    <img class="imagenes" id="img1" src="doomguy.jpg" alt=“YO">-->
+                </figure>          
+                <p>Se me dio la idea de realizar esta pagina ya que los videojuegos son algo que me ha acompañado la mayor parte de mi vida, por lo menos desde que a los 5 años mis padres me regalaron una dynacom (la atari 2600 en Argentina) despues de esa vino la family game, compre la sega mega drive con mis ahorros y luego vino la super nintendo, fui pasasndo por la mayoria de consolas hasta el dia de hoy con la exepcion de lagunas que no pude conseguir en su momento. </p>
+
             </div>
-            <div>
+            <!--<div>
                 <figure id="">
                     <img class="imagenes" id="img1" src="doomguy.jpg" alt=“YO">
                 </figure>
-            </div>
+            </div>-->
 
-            <div id="separacion">
-            </div>
+            <div id="separacion"></div>
+        </div>
 
 
     
 
     <footer class="foot">
-        <h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, distinctio.</p></h2>
+        <p>BROZMAN GERMAN ARIEL</p>
     </footer>
               
 </body>
