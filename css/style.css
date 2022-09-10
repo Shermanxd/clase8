@@ -3,6 +3,9 @@
     margin: 0;
 
 }
+#navlogo{
+    width: 35px;
+}
 body{
     background-image: url(../img/pattbg.png);
     background-size: 35%;

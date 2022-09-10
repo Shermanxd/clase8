@@ -2,6 +2,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+#navlogo{
+    width: 35px;
+}
 .video{
     text-align: center;
     background-color: #ece1e1a0;

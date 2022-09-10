@@ -1,14 +1,17 @@
 .container {
     max-width: 100%;
 }
-
-#img1 {
+#navlogo{
+    width: 35px;
+}
+#img2 {
     width: 20%;
     height: 25%;
     float: right;
     border-radius: 35%;
     border: 6px dashed;
-    max-width: 200px;
+    max-width: 220px;
+    min-width: 150px;
 
 }
 
@@ -43,15 +46,55 @@
     font-size: 120%;
     text-align: center;
 }
+.texto2li {
+    width: 100%;
+    font-size: 100%;
+    text-align: left;
+}
 
 #p_texto2 {
     background-color: aqua;
     text-align: center;
 }
 
-.img2 {
+/*.img2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 200px;
+}*/
+.text{
+    width: 50%;
+    display: float;
+    float: right;
+    padding: 10px;
+}
+.img2{
+    width: 100%;
+    padding: 5px;
+}
+.images{
+    border: 1px dotter red;
+    display: float;
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+@media (max-width: 600px){
+    .images{
+        float: none;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3%;
+}
+@media (max-width: 600px){
+    .text{
+        text-align: center;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3%;
 }
